@@ -1,0 +1,56 @@
+body {
+    font-family: Open Sans;
+}
+
+/*   main navbar styles   */
+
+.mainNavbar nav {
+    background-color: #fff;
+    min-height: 90px;
+}
+
+.mainNavbar .uk-navbar-brand img {
+    width: 75px;
+    margin: 20px 10px;
+}
+
+.mainNavbar .uk-navbar-content{
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.mainNavbar .uk-navbar-content.line {
+    color: #d0cccc;
+    cursor: default;
+}
+.mainNavbar .uk-navbar-content.bold {
+    font-weight:bold;
+}
+/*  mainNavbar styles ends  */
+
+/*mainHeader styles starts*/
+
+.headerContents {
+    position: relative;
+}
+
+.headerContents .captions {
+    position: absolute;
+    left: 5vw;
+    top: 15%;
+}
+
+.headerContents .captions p {
+    font-family: 'Open sans';
+    font-size: 20px;
+    color: #adadad;
+}
+.headerContents .captions h1 {
+    font-family: 'PT Sans';
+    font-size: 50px;
+}
+.headerContents .captions h4 {
+    color: rgba(0, 0, 0, 0.57);
+    font-family: 'PT Sans';
+    margin-top: 0px;
+}
+/*mainHeader styles ends*/
